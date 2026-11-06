@@ -1,0 +1,22 @@
+---
+import ExcavatorImage from '../assets/excavator.png';
+import Layout from '../layouts/Showcase.astro';
+---
+
+<Layout
+	title="Coming Soon!"
+	description="A showcase of my work"
+	pubDate={new Date('November 6 2026')}
+	heroImage={ExcavatorImage}
+    >
+    <p style="text-align: center;">
+        Coming soon!
+    </p>
+</Layout>
+
+<style is:global>
+    .hero-image img {
+        zoom: 20%;
+        border-radius: 0;
+    }
+</style>
